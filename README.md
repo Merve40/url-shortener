@@ -1,2 +1,12 @@
 # URL-Shortener
-URL Shortener using Spring Boot
+A simple URL Shortener implementation using Spring Boot
+
+## Deployment with docker
+```
+docker-compose up &
+```
+
+### Retrieving IP Address of Docker Container
+```
+docker network inspect urlshortener_default | grep IPv4Address
+```
