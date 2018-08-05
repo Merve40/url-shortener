@@ -1,0 +1,13 @@
+version: '2.0'
+services:
+  container:
+    container_name: ushortener_jar
+    image: openjdk:8
+    restart: always
+    volumes: 
+      - .:/app
+    entrypoint:
+      - java
+      - -Djava.security.egd=file:/dev/./urandom
+      - -jar
+      - /app/build/libs/URLShortener.jar

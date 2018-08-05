@@ -1,0 +1,10 @@
+cacheConnection: true
+cacheTableNames: true
+leakHunter: false
+properties:
+  batchedStatements:  false
+  qualifiedTableNames: false
+  caseSensitiveTableNames: true
+  batchSize: 100
+  fetchSize: 100
+  allowEmptyFields: false
