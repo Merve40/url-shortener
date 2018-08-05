@@ -1,2 +1,2 @@
-# url-shortener
+# URL-Shortener
 URL Shortener using Spring Boot
