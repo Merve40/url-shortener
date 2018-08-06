@@ -3,7 +3,7 @@ A simple URL Shortener implementation using Spring Boot
 
 ## Deployment with docker
 ```
-docker-compose up &
+docker-compose up -d
 ```
 
 ### Retrieving IP Address of Docker Container
